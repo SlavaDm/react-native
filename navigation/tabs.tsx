@@ -1,7 +1,10 @@
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
-import MapsScreen from '../screens/MapsScreen';
+
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
 import IconFontAwesome from 'react-native-vector-icons/FontAwesome';
+
+import MapsScreen from '../screens/MapsScreen';
 import APIScreen from '../screens/APIScreen';
 import CRUDScreen from '../screens/CRUDScreen';
 
