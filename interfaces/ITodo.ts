@@ -3,4 +3,6 @@ export interface ITodo {
   readonly isChecked?: boolean;
   readonly title?: string;
   readonly idForDocument: string;
+  readonly days?: number;
+  readonly addingTime: number;
 }

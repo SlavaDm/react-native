@@ -41,7 +41,7 @@ export const Tabs = () => {
           );
         },
         tabBarLabelStyle: { fontSize: 15, marginBottom: 2 },
-        headerTitle: 'Mobile app',
+        headerTitle: 'My ToDo',
       })}
     >
       <Tab.Screen name="Maps" component={MapsScreen} />
